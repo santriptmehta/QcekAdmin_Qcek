@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.blankspace.adminQcek">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.blankspace.adminQcek.AddBulkQActivity"></activity>
+        <activity android:name="com.blankspace.adminQcek.QuestionDetailsActivity" />
+        <activity android:name="com.blankspace.adminQcek.QuestionActivity" />
+        <activity android:name="com.blankspace.adminQcek.TestActivity" />
+        <activity android:name="com.blankspace.adminQcek.CategoryActivity" />
+        <activity android:name="com.blankspace.adminQcek.MainActivity" />
+        <activity android:name="com.blankspace.adminQcek.LoginActivity" />
+        <activity android:name="com.blankspace.adminQcek.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
